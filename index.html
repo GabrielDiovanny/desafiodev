@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Diovanny Dev</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="cabeçalho">
+        <h1 class="logo">DIEL DEV</h1>
+        <nav>
+          <a href="#projetos">Projetos</a>
+          <a href="#skills">Skills</a>
+     </div>
+    </header>
+       <a href="#sobre">Sobre</a>
+          <a href="#contato">Contato</a>
+        </nav>
+    
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-texto">
+          <h1>Sites rápidos, bonitos e responsivos.</h1>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi
+            soluta delectus illum tempora omnis explicabo consequatur quos,
+            unde, expedita, quaerat sit nulla quae quidem nihil ducimus incidunt
+            laborum possimus voluptatum.
+          </p>
+
+          <div class="hero-botoes">
+            <a href="#projetos">Ver Projetos</a>
+            <a href="#contato">Fale comigo</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h2>PROJETOS</h2>
+
+        <div class="projetos-grid">
+          <article class="projeto-card">
+            <h3>Projeto Cordel</h3>
+            <p>
+              Este projeto foi desenvolvido com foco em estrutura semântica e
+              estilização avançada com CSS. A proposta é apresentar um conteúdo
+              em formato de cordel com uma experiência visual imersiva,
+              utilizando efeitos de paralaxe, imagens de fundo fixas e
+              tipografia expressiva. O objetivo principal foi treinar
+              organização de layout, controle de espaçamento, responsividade e
+              aplicação de estilos que valorizam a leitura e a estética do
+              conteúdo.
+            </p>
+            <img src="imagens/cordel cell.png" alt="" />
+          </article>
+
+          <article class="projeto-card">
+            <h3>Projeto Android</h3>
+            <p>
+              Neste projeto foi criada uma página completa sobre a história do
+              Android, com estrutura organizada e design moderno. O
+              desenvolvimento priorizou a construção de um layout bem
+              distribuído, uso correto de seções semânticas, incorporação de
+              mídias como vídeos e imagens, além de estilização consistente para
+              melhorar a experiência do usuário. O foco foi praticar hierarquia
+              visual, organização de conteúdo informativo e responsividade para
+              diferentes tamanhos de tela.
+            </p>
+            <div class="img-box">
+              <img src="imagens/androidcell.png" alt="" />
+            </div>
+          </article>
+
+          <article class="projeto-card">
+            <h3>Projeto Redes</h3>
+            <p>
+              Este projeto simula uma interface interativa de navegação entre
+              redes sociais, com foco em posicionamento de elementos,
+              interatividade visual e adaptação para dispositivos móveis. Foram
+              aplicados conceitos de layout flexível, responsividade e controle
+              de elementos visuais em diferentes resoluções. O principal
+              objetivo foi desenvolver habilidades de estruturação visual,
+              alinhamento e comportamento responsivo da interface.
+            </p>
+            <div class="img-box">
+              <img src="imagens/redescell.png" alt="" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+
+        <ul class="skills-lista">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Git</li>
+          <li>Responsivo</li>
+          <li>Flexbox</li>
+        </ul>
+      </section>
+
+      <section class="sobre" id="sobre">
+        <h2>Quem sou eu?</h2>
+
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos magnam,
+          facilis qui esse maxime necessitatibus suscipit in delectus non ea
+          voluptates natus quisquam libero architecto, voluptatem quam
+          cupiditate praesentium veniam.
+        </p>
+
+        <ul class="sobre-pontos">
+          <li>Foco</li>
+          <li>Disciplina</li>
+          <li>Evolução</li>
+        </ul>
+      </section>
+
+      <section class="contato" id="contato">
+        <h2>Contato</h2>
+
+        <form>
+          <p>
+            <label for="inome">Seu nome:</label>
+            <input
+              id="inome"
+              type="text"
+              name="nome"
+              placeholder="Digite seu nome"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="iemail">Email:</label>
+            <input
+              id="iemail"
+              type="email"
+              name="email"
+              placeholder="Digite seu email"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="imensagem">Mensagem:</label>
+            <textarea
+              id="imensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Escreva sua mensagem"
+              maxlength="1000"
+              required
+            ></textarea>
+          </p>
+
+          <button type="submit">Enviar Mensagem</button>
+        </form>
+
+        <div class="redes">
+          <a href="#">Instagram</a>
+          <a href="#">GitHub</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Criado por Gabriel Diovanny</p>
+    </footer>
+  </body>
+</html>
