@@ -56,8 +56,13 @@ header {
 nav {
   display: flex;
   justify-content: center;
-  gap: 10px;
+  gap: 60px;
   padding: 10px 0;
+}
+
+nav a {
+  padding: 8px 30px;
+  font-size: 15px;
 }
 
 a {
@@ -110,10 +115,9 @@ main {
   text-align: center;
   background-color: var(--cor-secundaria);
   color: white;
-  padding: 20px 0 ;
+  padding: 20px 0;
   margin-top: 20px;
 }
-
 
 .projetos h3 {
   font-size: 34px;
@@ -126,12 +130,11 @@ main {
 }
 
 .projetos p {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 16px;
   color: var(--texto-branco);
   margin: 30px;
 }
-
 
 .projetos img {
   width: 340px;
@@ -145,35 +148,63 @@ main {
   border-radius: 10px;
 }
 
-
-
 h3:hover {
-  box-shadow: 0px 0px 5px 6px  #df96df;
+  box-shadow: 0px 0px 5px 6px #df96df;
+}
+
+.skill {
+  margin-top: 18px;
+}
+
+.skills h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
+}
+
+.skill p {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.barra {
+  width: 100%;
+  height: 10px;
+  background: #1e293b;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.preenchido {
+  height: 100%;
+  background: #3b82f6;
+  border-radius: 999px;
+}
+
+.sobre {
+  background-color: var(--texto-branco);
+}
+
+.sobre h2 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 20px;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.sobre p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+  margin-top: 20px;
+  text-indent: 20px;
+}
 
 @media screen and (min-width: 400px) {
   .projetos-grid {
     display: flex;
     gap: 10px;
-    background-color: var(--cor-fundo);
   }
   .projeto-card {
     background-color: var(--cor-terciaria);
