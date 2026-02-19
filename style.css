@@ -193,11 +193,21 @@ h3:hover {
   margin-top: 20px;
 }
 
+.sobre-pontos {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  font-size: 1.2em;
+}
+.sobre-pontos li {
+  margin: 10px 0;
+}
+
 
 .sobre p {
   font-family: 'Courier New', Courier, monospace;
   font-size: 20px;
-  margin-top: 20px;
+  margin: 20px;
   text-indent: 20px;
 }
 
