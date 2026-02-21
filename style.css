@@ -298,3 +298,7 @@ footer {
   background-color: var(--cor-secundaria);
   width: 100%;
 }
+
+div.img-grande {
+  margin-bottom: 40px;
+}
